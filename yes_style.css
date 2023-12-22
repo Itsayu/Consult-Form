@@ -70,3 +70,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 600px) {
+    .header_text {
+        left: 1rem;
+        font-size: 25px;
+        margin-inline: 2rem;
+    }
+
+    .gif_container img {
+        width: 300px;
+        height: 300px;
+    }
+    
+}
